@@ -22,6 +22,9 @@ public class Graph {
     public void setWords(List<String> words) {
         Words = words;
     }
+    public void resetWords(List<String> words) {
+        Words = words;
+    }
     public Map<String, Map<String, Integer>> getWordsMap() {
         return wordsMap;
     }

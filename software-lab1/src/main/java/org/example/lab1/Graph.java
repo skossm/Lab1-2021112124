@@ -40,7 +40,7 @@ public class Graph {
     public void addEdge(String source, String destination) {
         source = source.toLowerCase();
         destination = destination.toLowerCase();
-
+        System.out.println("software");
         Map<String, Integer> neighbors = this.wordsMap.get(source);
         if (neighbors == null) {
             neighbors = new HashMap<>();

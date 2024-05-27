@@ -16,7 +16,7 @@ public class GraphUI extends Application {
 
     private Graph graph = new Graph();
 
-
+    private List<String> Words;
     public static void main(String[] args) {
         launch(args);
     }

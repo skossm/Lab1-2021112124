@@ -42,7 +42,7 @@ public class GraphUI extends Application {
                 fileContent.setText(String.join(" ", words));
             }
         });
-
+        System.out.print("B2——modify---UI");
         // 展示有向图按钮
         Button displayGraphButton = new Button("有向图展示");
         displayGraphButton.setOnAction(e -> {

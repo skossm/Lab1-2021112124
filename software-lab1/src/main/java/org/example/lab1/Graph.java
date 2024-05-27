@@ -66,6 +66,7 @@ public class Graph {
 
     // 获取节点的邻居及其权重
     public Map<String, Integer> getNeighbors(String node) {
+        System.out.print("B2——modify");
         node = node.toLowerCase();
         if (this.wordsMap.containsKey(node)) {
             return this.wordsMap.get(node);

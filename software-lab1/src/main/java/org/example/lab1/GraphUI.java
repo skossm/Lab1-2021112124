@@ -15,7 +15,7 @@ import java.util.Map;
 public class GraphUI extends Application {
 
     private Graph graph = new Graph();
-
+    private int j;
     private List<String> Words;
     public static void main(String[] args) {
         launch(args);

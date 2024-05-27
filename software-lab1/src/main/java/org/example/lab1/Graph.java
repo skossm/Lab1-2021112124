@@ -16,6 +16,7 @@ public class Graph {
     private List<String> path = new ArrayList<>();
     private Set<String> visitedEdges = new HashSet<>();
     private List<String> Words;
+    private int i;
     public List<String> getWords() {
         return Words;
     }

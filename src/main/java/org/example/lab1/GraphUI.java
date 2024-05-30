@@ -27,6 +27,8 @@ public class GraphUI extends Application {
         GridPane grid = new GridPane();
         grid.setHgap(10);
         grid.setVgap(10);
+        int i;
+        int j;
         // 载入文件
         Button loadFileButton = new Button("载入文件");
         TextArea fileContent = new TextArea();
